@@ -599,7 +599,9 @@ def main():
     if not args.skip_check:
         preflight(model_paths["face_landmarker.task"])
 
-    cap = cv2.VideoCapture(args.camera)
+    cap = cv2.VideoCapture(args.camera, cv2.CAP_DSHOW)
+    if not cap.isOpened():
+        cap = cv2.VideoCapture(args.camera)
     if cap.isOpened() and "x" in args.size:
         w, h = args.size.lower().split("x")
         cap.set(cv2.CAP_PROP_FRAME_WIDTH, int(w))
@@ -657,12 +659,18 @@ def main():
     sm_center, sm_h = np.array([W / 2, H / 2], np.float32), H * 0.45
     print("Running. Focus the preview window: q quit, d HUD, c recalibrate, 1-9 0 - = [ ] test a pose")
 
+    drops = 0
     try:
         while True:
             ok, frame = cap.read()
             if not ok:
-                print("Camera stopped returning frames.")
-                break
+                drops += 1
+                if drops > 30:
+                    print("Camera stopped returning frames.")
+                    break
+                time.sleep(0.03)
+                continue
+            drops = 0
             if frame.shape[0] != H or frame.shape[1] != W:
                 frame = cv2.resize(frame, (W, H))
             if not args.no_flip:
