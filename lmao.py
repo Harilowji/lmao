@@ -28,14 +28,14 @@ from mediapipe.tasks import python as mp_tasks
 from mediapipe.tasks.python import vision
 
 POSES = ["heart", "cover_nose", "nose_closed", "mewing", "tongue_out", "open_mouth", "suspicious", "spin",
-         "nerd", "cool", "shy", "tease", "hug"]
-TEST_KEYS = "1234567890-=["
+         "nerd", "shy", "hug", "confused"]
+TEST_KEYS = "1234567890-="
 
 FACE_SCALE = 2.0
 HOLD_FRAMES = 10
 ARM = {
     "spin": 15, "suspicious": 8, "open_mouth": 4, "tongue_out": 5, "mewing": 3,
-    "nerd": 3, "cool": 3, "shy": 3, "tease": 4, "hug": 4,
+    "nerd": 3, "shy": 3, "hug": 4, "confused": 3,
 }
 
 Z = dict(
@@ -514,8 +514,6 @@ def decide(face, hands, body, tongue, gesture, m):
 
     if len(hands) >= 2:
         a, b = hands[0], hands[1]
-        if tongue > T["tongue"] and a.open and b.open:
-            return "tease", d
         if near(a.index, b.index, 0.28) and dist(a.thumb, b.thumb) > 0.3 * fw and not a.open and not b.open:
             return "shy", d
         if near(a.index, b.index, 0.3) and near(a.thumb, b.thumb, 0.3) \
@@ -531,13 +529,14 @@ def decide(face, hands, body, tongue, gesture, m):
             return "nose_closed", d
         if (near(h.index, face.chin, 0.45) or near(h.thumb, face.chin, 0.4)) and not near(h.palm, face.mouth, 0.35) and not h.open:
             return "mewing", d
-        if h.thumb[1] < h.index[1] - 0.12 * fw and (h.palm[1] - h.thumb[1]) > 0.3 * fw and not h.open:
-            return "cool", d
         if near(h.thumb, h.index, 0.22) and not h.open and not near(h.index, face.chin, 0.4) and not near(h.index, face.nose, 0.35):
             return "heart", d
         if (h.palm[1] - h.index[1]) > 0.35 * fw and (h.palm[1] - h.index[1]) > 1.2 * abs(h.palm[0] - h.index[0]) \
                 and not h.open and not near(h.index, face.chin, 0.4):
             return "nerd", d
+        if (near(h.palm, face.top, 0.55) or near(h.index, face.top, 0.55) or
+            (h.palm[1] < face.eye_y and (near(h.palm, face.pts[234], 0.45) or near(h.palm, face.pts[454], 0.45)))):
+            return "confused", d
 
     if tongue > T["tongue"]:
         return "tongue_out", d
@@ -620,7 +619,7 @@ def main():
     print(f"Camera {args.camera}: {W}x{H}")
 
     clock = Clock()
-    window = "lmao  (q quit, d HUD, c recalibrate, 1-9 0 - = [ test)"
+    window = "lmao  (q quit, d HUD, c recalibrate, 1-9 0 - = test)"
 
     if args.calibrate:
         face_det = vision.FaceLandmarker.create_from_options(vision.FaceLandmarkerOptions(
@@ -657,7 +656,7 @@ def main():
     shown_since = 0.0
     forced, forced_until = None, 0.0
     sm_center, sm_h = np.array([W / 2, H / 2], np.float32), H * 0.45
-    print("Running. Focus the preview window: q quit, d HUD, c recalibrate, 1-9 0 - = [ ] test a pose")
+    print("Running. Focus the preview window: q quit, d HUD, c recalibrate, 1-9 0 - = test a pose")
 
     drops = 0
     try:

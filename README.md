@@ -10,8 +10,8 @@ python lmao.py              # preview + virtual camera
 python lmao.py --no-vcam    # preview only
 ```
 
-Thirteen reactions: heart, cover nose, nose closed, mewing, tongue out, open mouth,
-suspicious, spin, nerd, cool, shy, tease, and hug.
+Twelve reactions: heart, cover nose, nose closed, mewing, tongue out, open mouth,
+suspicious, spin, nerd, shy, hug, and confused.
 
 Expression thresholds are calibrated to *your* face using MediaPipe blendshapes. 
 
@@ -49,7 +49,7 @@ python lmao.py
 | `q` | quit |
 | `d` | toggle the HUD |
 | `c` | recalibrate |
-| `1`–`9` `0` `-` `=` `[` | force a reaction on screen for 2 seconds |
+| `1`–`9` `0` `-` `=` | force a reaction on screen for 2 seconds |
 
 ---
 
@@ -94,13 +94,12 @@ someone who likes you first.
 | `mewing` | index finger pointing along your jawline or touching your chin |
 | `tongue_out` | tongue out, mouth open |
 | `open_mouth` | jaw drops |
-| `suspicious` | turn your head and squint |
+| `suspicious` | turn your head and squint (dog side-eye 🐶) |
 | `spin` | leave the frame entirely |
 | `nerd` | one index finger pointing straight up (☝️🤓) |
-| `cool` | thumbs up (👍😎) |
 | `shy` | two index fingertips touching each other (👉👈) |
-| `tease` | both hands up beside head + tongue out (👐😝) |
 | `hug` | both hands open wide reaching for a hug (🥺👐) |
+| `confused` | hand on head, scratching head or touching forehead/temple (🐱) |
 
 Assets live in `assets/`, named after the pose — `heart.jpeg`, `spin.gif`.
 Swap in your own by dropping a file with the right name; JPEG, PNG and animated

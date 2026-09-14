@@ -1,8 +1,8 @@
 ================================================================================
-                    BẢNG HƯỚNG DẪN CỬ CHỈ & MEME - IT'S GIVING
+                    BẢNG HƯỚNG DẪN CỬ CHỈ & MEME - LMAO
 ================================================================================
 
-Tổng cộng có 13 biểu cảm/meme hoạt động tự động theo cử chỉ webcam hoặc bấm phím test:
+Tổng cộng có 12 biểu cảm/meme hoạt động tự động theo cử chỉ webcam hoặc bấm phím test:
 
 --------------------------------------------------------------------------------
 BẢNG TRA CỨU NHANH
@@ -15,20 +15,19 @@ Phím | Tên Meme       | Hình ảnh Meme                  | Cử chỉ kích h
  4   | mewing         | Sung Jin-woo (Chad jawline)    | Đưa ngón trỏ vuốt dọc xương hàm / chạm cằm
  5   | tongue_out     | Mèo liếm kính thè lưỡi dài     | Há miệng thè lưỡi ra ngoài (👅)
  6   | open_mouth     | Mèo mắt tròn xoe há hốc mồm   | Há to miệng ngạc nhiên (😮)
- 7   | suspicious     | Mèo liếc mắt nghi ngờ (Side-eye)| Quay đầu sang bên + nheo mắt liếc
+ 7   | suspicious     | Chú chó liếc mắt nghi ngờ 🐶   | Quay đầu sang bên + nheo mắt liếc (Side-eye)
  8   | spin           | Mèo xoay tròn (ảnh động GIF)   | Bước ra khỏi khung hình camera (biến mất)
  9   | nerd           | Mèo đeo kính "Akkshually..."   | Giơ 1 ngón trỏ chỉ thẳng lên trời (☝️🤓)
- 0   | cool           | Emoji kính râm giơ Like        | Giơ ngón tay cái Like (👍😎)
- -   | shy            | Mèo ngượng ngùng má hồng       | Chạm 2 đầu ngón trỏ vào nhau (👉👈)
- =   | tease          | Mèo giơ 2 tay thè lưỡi lêu lêu | Giơ 2 bàn tay xòe ngang đầu + thè lưỡi (👐😝)
- [   | hug            | Bé mắt long lanh đòi ôm        | Dang rộng 2 bàn tay mở về phía camera (🥺👐)
+ 0   | shy            | Mèo ngượng ngùng má hồng       | Chạm 2 đầu ngón trỏ vào nhau (👉👈)
+ -   | hug            | Bé mắt long lanh đòi ôm        | Dang rộng 2 bàn tay mở về phía camera (🥺👐)
+ =   | confused       | Mèo gãi đầu / hoang mang 🐱    | Đưa tay lên đầu, vò đầu / gãi đầu / sờ trán
 
 --------------------------------------------------------------------------------
 HƯỚNG DẪN CHI TIẾT CÁCH LÀM TỪNG CỬ CHỈ
 --------------------------------------------------------------------------------
 
 1. BẮN TIM (heart) - Phím 1:
-   - Cách 1 (Mới): Dùng 1 tay làm cử chỉ bắn tim kiểu Hàn Quốc (ngón cái và ngón trỏ chạm/bắt chéo nhau 🫰).
+   - Cách 1: Dùng 1 tay làm cử chỉ bắn tim kiểu Hàn Quốc (ngón cái và ngón trỏ chạm/bắt chéo nhau 🫰).
    - Cách 2: Ghép 2 bàn tay lại tạo thành hình trái tim (đầu 2 ngón trỏ chạm nhau, đầu 2 ngón cái chạm nhau).
 
 2. BỊT MŨI & MIỆNG (cover_nose) - Phím 2:
@@ -46,7 +45,7 @@ HƯỚNG DẪN CHI TIẾT CÁCH LÀM TỪNG CỬ CHỈ
 6. HÁ HỐC MỒM (open_mouth) - Phím 6:
    - Hạ quai hàm há to miệng ngạc nhiên (không cần giơ tay).
 
-7. LIẾC MẮT NGHI NGỜ (suspicious) - Phím 7:
+7. CHÓ LIẾC MẮT NGHI NGỜ (suspicious) - Phím 7 [ẢNH MỚI]:
    - Hơi quay mặt sang một bên (khoảng 30-45 độ) đồng thời nheo mắt nhìn về phía camera (liếc side-eye).
 
 8. BIẾN MẤT / XOAY TRÒN (spin) - Phím 8:
@@ -55,17 +54,14 @@ HƯỚNG DẪN CHI TIẾT CÁCH LÀM TỪNG CỬ CHỈ
 9. MÈO MỌT SÁCH (nerd) - Phím 9:
    - Nắm các ngón tay lại và giơ 1 ngón trỏ chỉ thẳng đứng lên trời bên cạnh mặt (cử chỉ phát biểu "Thực ra là... ☝️🤓").
 
-10. KÍNH RÂM LIKE (cool) - Phím 0:
-    - Nắm tay lại và giơ ngón tay cái chỉ thẳng lên trời (cử chỉ ngón cái Like 👍).
-
-11. NGƯỢNG NGÙNG (shy) - Phím - (dấu trừ):
+10. NGƯỢNG NGÙNG (shy) - Phím 0:
     - Dùng 2 bàn tay nắm lại, chỉ để 2 ngón trỏ duỗi ra và chạm 2 đầu ngón trỏ vào nhau trước ngực (👉👈).
 
-12. LÊU LÊU TRÊU NGƯƠI (tease) - Phím = (dấu bằng):
-    - Giơ cả 2 bàn tay xòe rộng lên 2 bên tai/thái dương đồng thời thè lưỡi ra ngoài (👐😝).
-
-13. ĐÒI ÔM (hug) - Phím [ (mở ngoặc vuông):
+11. ĐÒI ÔM (hug) - Phím - (dấu trừ):
     - Mở rộng 2 bàn tay trước camera như đang dang tay muốn ôm ai đó (🥺👐).
+
+12. MÈO GÃI ĐẦU / HOANG MANG (confused) - Phím = (dấu bằng) [MEME MỚI]:
+    - Đưa 1 bàn tay lên đỉnh đầu gãi đầu, hoặc áp tay vào trán / thái dương như đang suy nghĩ / hoang mang / nhức đầu.
 
 --------------------------------------------------------------------------------
 CÁC PHÍM ĐIỀU KHIỂN CHƯƠNG TRÌNH
@@ -73,7 +69,7 @@ CÁC PHÍM ĐIỀU KHIỂN CHƯƠNG TRÌNH
 - q : Thoát chương trình.
 - d : Bật / tắt bảng thông số nhận diện (HUD).
 - c : Cân chỉnh lại khuôn mặt nghỉ (Calibration - giữ mặt bình thường trong 7s).
-- 1 đến 9, 0, -, =, [ : Ép hiển thị meme tương ứng trong 2 giây để kiểm tra.
+- 1 đến 9, 0, -, = : Ép hiển thị meme tương ứng trong 2 giây để kiểm tra.
 
 --------------------------------------------------------------------------------
 CÁCH KHỞI ĐỘNG
